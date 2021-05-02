@@ -21,18 +21,17 @@ w here 0 means black, and 255 means white.
 
 We
 perform quantization into L gray levels as follows:
-1. Create a histogram h an array of length 256. h[v] is the number of pixels
+1. Create a histogram h an array of length 256. **h[v]** is the number of pixels
 which have the value v.
 2. Create the cumulative distribution function CDF from the histogram.
-CDF[v]=h[0]+h[1]+...+h[v]
-3. Create a map m from old gray level to new gray level. m[v] is the new
+**CDF[v]=h[0]+h[1]+...+h[v]**
+3. Create a map m from old gray level to new gray level. **m[v]** is the new
 value of pixels which originally had the value v.
 m is computed as follows:
 
-![image](https://user-images.githubusercontent.com/37774604/116829059-6cea8c00-abab-11eb-8c71-2a8f730fde44.png =20x20)
-
+**𝑚(𝑣) = 256/𝐿 ⋅ ⌊ 𝐿⋅𝑐𝑑𝑓(𝑣) / (𝑀⋅𝑁)⌋**
 4. Compute the new image For each pixel 𝑖
-new[𝑖]=𝑚[original[𝑖]]
+**new[𝑖]=𝑚[original[𝑖]]**
 
 ## Compilation & Execution
 
@@ -51,7 +50,7 @@ The repository includes the following files:
 well as measure s performance.
 
 `image.cu`: test program that runs the CPU implementation against an image file and produces an output image file, for your curiosity by running:
-./image <imagefile>
+`./image <imagefile>`
         
 `cat.jpg`: cat shown above.
 
