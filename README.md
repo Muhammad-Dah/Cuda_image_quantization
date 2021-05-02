@@ -7,7 +7,7 @@ you can see a pair of images. On the left, the original image, and on
 the right, the image after quantization to 4 colors
 (https://www.flickr.com/photos/crsan/4379532286)
 
-![image](https://user-images.githubusercontent.com/37774604/116829029-2f85fe80-abab-11eb-9d6d-52ccc8813715.png) ![image](https://user-images.githubusercontent.com/37774604/116829030-314fc200-abab-11eb-88ba-e81b8de60bb1.png)
+![Uploading image.png…]()
 
 The algorithm we will implement works by first creating a histogram of the
 gray levels in the image, then using the histogram to create a map w hich
