@@ -29,7 +29,7 @@ CDF[v]=h[0]+h[1]+...+h[v]
 value of pixels which originally had the value v.
 m is computed as follows:
 
-![image](https://user-images.githubusercontent.com/37774604/116829059-6cea8c00-abab-11eb-8c71-2a8f730fde44.png)
+![image](https://user-images.githubusercontent.com/37774604/116829059-6cea8c00-abab-11eb-8c71-2a8f730fde44.png =20x20)
 
 4. Compute the new image For each pixel 𝑖
 new[𝑖]=𝑚[original[𝑖]]
