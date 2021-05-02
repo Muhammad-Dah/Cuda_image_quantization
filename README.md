@@ -44,13 +44,17 @@ make image_quantization
 The repository includes the following files:
 
 `image_quantization.cu`     : GPU implementation of the algorithm that is used to check the results.
+
 `image_quantization-cpu.cu` : CPU implementation of the algorithm that is used to check the results.
+
 `main.cu`: test harness that runs your algorithm on random images and compares the result against the CPU implementation a bove, as
 well as measure s performance.
+
 `image.cu`: test program that runs the CPU implementation against an image file and produces an output image file, for your curiosity by running:
 ./image <imagefile>
-`cat.jpg`:
-cat shown above.
+        
+`cat.jpg`: cat shown above.
+
 `Makefile`: Allows building the exercise ex1 and the graphical test application image using make ex1 and make image respectively.
 
 ## bulk synchronous version:  
