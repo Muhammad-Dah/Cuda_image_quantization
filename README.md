@@ -28,8 +28,7 @@ which have the value v.
 3. Create a map m from old gray level to new gray level. **m[v]** is the new
 value of pixels which originally had the value v.
 m is computed as follows: **𝑚(𝑣) = 256/𝐿 ⋅ ⌊ 𝐿⋅𝑐𝑑𝑓(𝑣) / (𝑀⋅𝑁)⌋**
-4. Compute the new image For each pixel 𝑖
-**new[𝑖]=𝑚[original[𝑖]]**
+4. Compute the new image For each pixel 𝑖 : **new[𝑖]=𝑚[original[𝑖]]**
 
 ## Compilation & Execution
 
