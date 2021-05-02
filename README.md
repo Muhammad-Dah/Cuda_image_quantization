@@ -34,6 +34,12 @@ m is computed as follows:
 4. Compute the new image For each pixel 𝑖
 new[𝑖]=𝑚[original[𝑖]]
 
+## Compilation & Execution
+
+```bash
+make image_quantization
+./a.out
+```
 
 The repository includes the following files:
 
